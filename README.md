@@ -1,3 +1,6 @@
 # note
-Daily solution-code upload! Playing with algorithms.
-# test
+Solutions in C++. Playing with algorithms!
+# contents
+
+# creator
+Wanseo Kim
