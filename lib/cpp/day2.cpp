@@ -1,4 +1,4 @@
-// kakao2020-크레인 인형뽑기 게임
+// kakao2019 - 크레인 인형뽑기 게임
 using namespace std;
  
 int solution(vector<vector<int>> board, vector<int> moves) {
