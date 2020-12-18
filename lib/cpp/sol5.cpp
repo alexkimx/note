@@ -14,9 +14,7 @@ string solution(vector<string> participant, vector<string> completion) {
         if(i.second >0){
             answer= i.first;
             break;
-
         }
-
     } 
     return answer;
 }
