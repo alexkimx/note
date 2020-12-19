@@ -1,29 +1,55 @@
 // 백준2839-설탕배달-greedy algorithm
 #include <iostream>
 #include <stdio.h>
+#include <vector>
 using namespace std;
 
-int deno[] = {5, 3, 0}; //큰 수부터 할당. 여러개였다면 sort.
-
-// 뺄셈의 최소 횟수 찾기
+// 내 코드
 int main(){
-    int cnt = 0;
+    int b[] = {5, 3}; //bags
     int N = 0;
+    int ans;
+
     cin >> N;
-    // subtract by largest num
-    // until N is equal to or less than 0.
-    //testcase:18->4,6->2
+    // check if remainder equals 0.
     for(int i = 0; i < 2; i++){
-        while(N > deno[i+1]){ // N>=3
-            N -= deno[i]; 
-            cnt++; // 봉지 갯수 
-        } 
-            
+        if(N % b[i] == 0 ) ans = N/b[i];
+    }
+    for(int i = 0; i < 2; i++){
+        while (N > 0)
+        {
+            /* code */
+        }
+        
+        if(N % b[i] == 0 ) ans = N/b[i];
     }
          
     if(N != 0){
-        cnt = -1;
+        ans = -1;
     }
-    cout << cnt;
+    cout << ans;
     return 0;
+}
+
+
+// 친구 코드...
+#define INF 2147000000 
+void solution(){
+	int n;
+	cin >> n;
+	vector<int> dp(n + 1, INF); 
+	int bag[2] = {3, 5};
+	
+	// solution
+	dp[0] = 0;
+	for(int i=0; i<2; i++){
+		for(int j=bag[i]; j<=n; j++){
+			dp[j] = min(dp[j], dp[j - bag[i]] + 1);
+		}
+	}
+	
+	// result
+	if(dp[n] == INF) cout << -1;
+	else cout << dp[n];
+	
 }

@@ -20,8 +20,6 @@ int solution(vector<int> scoville, int K) {
         int min2 = q.top();
         q.pop();
         q.push(min1 + 2 * min2);
-
     }
-
     return answer;
 }
