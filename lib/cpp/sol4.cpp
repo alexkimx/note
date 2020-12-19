@@ -14,7 +14,7 @@ int solution(int n, vector<int> lost, vector<int> reserve) {
     for(int i=0; i<reserve.size(); i++) 
         u[reserve[i]]++;
     
-    // if the next is lost and i am reserve
+    // if the next is lost && i am reserve
     for(int i = 1; i <= n; i++){
         if(u[i-1] == 0 && u[i]==2){
             u[i-1]=u[i]=1;
