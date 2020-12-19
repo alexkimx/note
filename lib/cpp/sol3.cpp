@@ -23,7 +23,7 @@ int solutionA(){
 }
 
 
-// solution B (친구 코드)
+// solution B (DP)(친구 코드)
 #define INF 2147000000 
 void solutionB(){
 	int n;

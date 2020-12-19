@@ -1,9 +1,8 @@
 # note
 Problem solving in C++ and java, Playing with algorithms! 
 알고리즘 공부 노트.
-# creator
-Wanseo Kim
-## contents
+
+# contents
 | id | titiles            | methods |   |   |
 |----|--------------------|---------|---|---|
 | 1  | 문자열압축         |         |   |   |
@@ -17,4 +16,8 @@ Wanseo Kim
 | 9  | n으로표현          | dp      |   |   |
 | 10 | 여행경로           | dfs     |   |   |
 | 11 | 직사각형           |         |   |   |
-| 12 | 1+2+3더하기        |         |   |   |
+| 12 | 1+2+3더하기        |dp       |   |   |
+| 13 | 동전               |dp       |   |   |
+
+# created by
+Wanseo Kim
