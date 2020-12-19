@@ -24,16 +24,11 @@ int main() {
     int n[20];
     for (int i = 0; i < t; i++) cin >> n[i];
 
-    int dp[15] = { 0 };
-    dp[1] = 1;
-    dp[2] = 2;
-    dp[3] = 3;
     for (int i = 0; i < t; i++) {
         cin >> n[i];
     }
     for (int i = 0; i < t; i++) {
         int m = n[i];
-
         solution(m);
     }
     
