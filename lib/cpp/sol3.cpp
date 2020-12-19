@@ -4,37 +4,28 @@
 #include <vector>
 using namespace std;
 
-// 내 코드
-int main(){
-    int b[] = {5, 3}; //bags
-    int N = 0;
-    int ans;
-
+// solution A
+int solutionA(){
+    int N;
     cin >> N;
-    // check if remainder equals 0.
-    for(int i = 0; i < 2; i++){
-        if(N % b[i] == 0 ) ans = N/b[i];
-    }
-    for(int i = 0; i < 2; i++){
-        while (N > 0)
-        {
-            /* code */
+    int cnt = 0;
+
+    while (N >= 0) {
+        if (N % 5 == 0) {
+            cout << N / 5 + cnt;
+            return;
         }
-        
-        if(N % b[i] == 0 ) ans = N/b[i];
+        N -= 3;
+        cnt++;
     }
-         
-    if(N != 0){
-        ans = -1;
-    }
-    cout << ans;
-    return 0;
+    cout << "-1";
+    return;
 }
 
 
-// 친구 코드...
+// solution B (친구 코드)
 #define INF 2147000000 
-void solution(){
+void solutionB(){
 	int n;
 	cin >> n;
 	vector<int> dp(n + 1, INF); 
