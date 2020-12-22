@@ -1,4 +1,4 @@
-// 직사각형 좌표
+// 나머지한점
 #include <iostream>
 #include <vector>
 using namespace std;

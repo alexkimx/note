@@ -3,7 +3,7 @@ Problem solving in C++ and java, Playing with algorithms!
 알고리즘 공부 노트.
 
 # contents
-| id | titiles            | methods |   |   |
+| id | titiles            | methods | url |   |
 |----|--------------------|---------|---|---|
 | 1  | 문자열압축         |         |   |   |
 | 2  | 크레인인형뽑기게임 |         |   |   |
@@ -15,9 +15,10 @@ Problem solving in C++ and java, Playing with algorithms!
 | 8  | 더맵게             | heap    |   |   |
 | 9  | n으로표현          | dp      |   |   |
 | 10 | 여행경로           | dfs     |   |   |
-| 11 | 직사각형           |         |   |   |
+| 11 | 직사각형           |         | https://programmers.co.kr/learn/courses/18/lessons/1878  |   |
 | 12 | 1+2+3더하기        |dp       |   |   |
 | 13 | 동전               |dp       |   |   |
-
+| 14 | ATM               |dp       |   |   |
+| 15 | ACM Craft         |dp       |   |   |
 # created by
 Wanseo Kim

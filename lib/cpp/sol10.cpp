@@ -24,7 +24,7 @@ vector<string> solution(vector<vector<string>> tickets) {
         }else
         {
             s.push_back(routes[airport].back());
-            routes[airort].pop_back();
+            routes[airport].pop_back();
         }
         
     }
