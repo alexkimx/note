@@ -15,15 +15,13 @@ int main(){
     for(int i=0; i++; i<n) cin >> a[i];
     
     // from the last element(largest coin).
-    while(k!=0){
-        for(int i=n-1; i--; i>=0){
-        k = k % a[i] == 0 ? 0 : k - a[i] * (k / a[i]);
-        res++;        
-        }
+    
+    for(int i=n-1; i>=0; i--){
+        k = k % a[i];
+        res+= k/a[i];
 
     }
     
-
     // output
     cout << res;
     return 0;
