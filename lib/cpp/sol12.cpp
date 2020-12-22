@@ -1,4 +1,4 @@
-// 백준9095
+// 백준9095: 1+2+3더하기 문제
 #include<iostream>
 using namespace std;
 
