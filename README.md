@@ -20,5 +20,7 @@ Problem solving in C++ and java, Playing with algorithms!
 | 13 | 동전               |dp       |   |   |
 | 14 | ATM               |dp       |   |   |
 | 15 | ACM Craft         |dp       |   |   |
+| 16 | 가장 긴 증가하는 부분 수열  |dp      |   |   |
+
 # created by
 Wanseo Kim
