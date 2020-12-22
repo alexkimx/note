@@ -12,13 +12,13 @@ int main(){
 
     // input
     cin >> n >> k;
-    for(int i=0; i++; i<n) cin >> a[i];
+    for(int i=0; i<n; i++) cin >> a[i];
     
     // from the last element(largest coin).
     
     for(int i=n-1; i>=0; i--){
-        k = k % a[i];
         res+= k/a[i];
+        k = k % a[i];
 
     }
     
