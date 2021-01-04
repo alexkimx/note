@@ -1,8 +1,8 @@
-# note
+# About Note
 Problem solving in C++ and java, Playing with algorithms! 
 알고리즘 공부 노트.
 
-# contents
+# Contents
 | id | titiles            | methods |  |   |
 |----|--------------------|---------|---|---|
 | 1  | 문자열압축         |         |   |   |
@@ -23,5 +23,4 @@ Problem solving in C++ and java, Playing with algorithms!
 | 16 | 가장 긴 증가하는 부분 수열  |dp      |   |   |
 | 16 | 부분집합  |dfs      |   |   |
 
-# created by
-Wanseo Kim
+
