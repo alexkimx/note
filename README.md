@@ -1,5 +1,5 @@
 # About Note
-Problem solving in C++ and java, Playing with algorithms! 
+Problem solving in C++, C, and Python, Playing with algorithms! 
 알고리즘 공부 노트.
 
 # Contents
