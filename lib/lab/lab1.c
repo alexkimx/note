@@ -41,7 +41,7 @@ void gradeSwitch(int x){
 int main(){
     int num; // declare a variable
     
-    num = scanf("%d",&num); // get input
+    scanf("%d",&num); // get input
 
     printf("Your grade:\n"); 
     gradeIf(num);

@@ -1,5 +1,5 @@
-// 홀수 짝수 프로그램
 #include <stdio.h>
+// 홀수 짝수 프로그램
 
 void check(int x){
     if(x%2==1) printf("odd");
@@ -9,10 +9,9 @@ int main(){
     int N; // declare a variable
     int K;
     N = scanf("%d",&N); // get input
-    for (int i = 0; i < N; i++)
+    for (int i = 0; i < N; i++) // repeat N times
     {
-        /* code */
-        scanf("%d",&K)
+        scanf("%d",&K);
         check(K);
     }
     

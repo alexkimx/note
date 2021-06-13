@@ -5,7 +5,7 @@
 int main(){
     int N; // declare a variable
     int K;
-    N = scanf("%d",&N); // get input
+    scanf("%d",&N); // get input
     for (int i = 0; i < N; i++) // repeat N times
     {
         scanf("%d",&K);
