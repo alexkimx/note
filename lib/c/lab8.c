@@ -4,7 +4,7 @@
 int main(){
     int num;
     int a, b, c, d;
-    int cnt=0
+    int cnt=0;
 
     scanf("%d", &num);
     int init = num;
